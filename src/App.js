@@ -1,12 +1,12 @@
 import React from 'react';
-import { Switch, Route, Link } from 'react-router-dom';
-import { Layout, Typography, Spcace } from 'antd';
+import { Routes, Route, Link } from 'react-router-dom';
+import { Layout, Typography, Spcace, Space } from 'antd';
 
 import {
   Navbar,
   Exchanges,
   Homepage,
-  CryptoCurrencies,
+  Cryptocurrencies,
   News,
   CryptoDetails,
 } from './components';
@@ -21,27 +21,30 @@ const App = () => {
       <div className="main">
         <Layout>
           <div className="routes">
-            <Switch>
-              <Route exact path="/">
-                <Homepage />
-              </Route>
-              <Route exact path="/exchanges">
-                <Exchanges />
-              </Route>
-              <Route exact path="/cryptocurrencies">
-                <CryptoCurrencies />
-              </Route>
-              <Route exact path="/crypto/:coinId">
-                <CryptoDetails />
-              </Route>
-              <Route exact path="/news">
-                <News />
-              </Route>
-            </Switch>
+            <Routes>
+              <Route path="/" element={<Homepage />} />
+              <Route path="/exchanges" element={<Exchanges />} />
+              <Route path="/cryptocurrencies" element={<Cryptocurrencies />} />
+              <Route path="/crypto/:coinId" element={<CryptoDetails />} />
+              <Route path="/news" element={<News />} />
+            </Routes>
           </div>
         </Layout>
+        <div className="footer">
+          <Typography.Title
+            level={5}
+            style={{ color: 'white', textAlign: 'center' }}
+          >
+            Crypto News <br />
+            All rights reserved
+          </Typography.Title>
+          <Space>
+            <Link to="/">Home</Link>
+            <Link to="/exchanges">Exchanges</Link>
+            <Link to="/news">News</Link>
+          </Space>
+        </div>
       </div>
-      <div className="footer"></div>
     </div>
   );
 };
