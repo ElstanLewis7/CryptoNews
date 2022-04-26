@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
-import { Layout, Typography, Spcace, Space } from 'antd';
+import { Layout, Typography, Space } from 'antd';
 
 import {
   Navbar,
@@ -10,6 +10,7 @@ import {
   News,
   CryptoDetails,
 } from './components';
+
 import './App.css';
 
 const App = () => {
