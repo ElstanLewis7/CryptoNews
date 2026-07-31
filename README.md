@@ -1,3 +1,69 @@
+# Crypto News
+
+A React web application that aggregates real-time cryptocurrency market data, price history, and news into a responsive dashboard.
+
+---
+
+## Overview
+
+Crypto News was built to explore third-party API integration, asynchronous data management, and responsive interface design using React.
+
+![Dashboard](assets/screenshots/dashboard.png)
+
+---
+
+## Market Overview
+
+The application displays live global cryptocurrency statistics alongside the highest-ranked cryptocurrencies, providing users with a quick snapshot of current market activity.
+
+![Market Overview](assets/screenshots/market-overview.png)
+
+---
+
+## Price Analytics
+
+Users can explore historical cryptocurrency performance through interactive price charts and market statistics powered by live API data.
+
+![Bitcoin Chart](assets/screenshots/bitcoin-chart.png)
+
+---
+
+## Cryptocurrency Browser
+
+Browse and search hundreds of cryptocurrencies while viewing key market metrics including price, market capitalization, and daily performance.
+
+![Top Cryptocurrencies](assets/screenshots/top-cryptocurrencies.png)
+
+---
+
+## Technologies
+
+- React
+- JavaScript
+- Ant Design
+- GraphQL
+- Chart.js
+- RapidAPI
+
+---
+
+## Technical Highlights
+
+- Retrieved live cryptocurrency market data from third-party APIs.
+- Managed asynchronous API requests and front-end application state.
+- Built reusable React components for displaying market information.
+- Created responsive data visualizations using Chart.js.
+- Organized cryptocurrency data into searchable, interactive views.
+
+---
+
+## Deployment
+
+Deployed using Netlify.
+
+
+
+<!--
 # Crypto News App
 
 A React-based cryptocurrency dashboard created during Fullstack Academy.
@@ -21,3 +87,4 @@ React • JavaScript • Ant Design • GraphQL • Chart.js • RapidAPI
 ## Project Status
 
 The original deployment and source files are no longer available in this repository.
+-->
