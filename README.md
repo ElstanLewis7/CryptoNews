@@ -61,7 +61,11 @@ Browse and search hundreds of cryptocurrencies while viewing key market metrics 
 
 Deployed using Netlify.
 
+---
 
+<p align="center">
+  <img src="assets/cryptonews-banner.png" alt="Crypto News banner" width="420">
+</p>
 
 <!--
 # Crypto News App
